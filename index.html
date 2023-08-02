@@ -397,46 +397,31 @@
 
         <div class="container_in_container_js">
             <p>Leave your contacts and we will call you back</p>
-        
-        <form class="form" name="issue_report_form" autocomplete="off">
-            <button type="button" data-modal-close class="modal_window_button">
-                <svg class="icon " width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-            </button>
-            <label class="form-label">
-              Your name
-              <input
-                class="form-input"
-                type="text"
-                name="username"
-                placeholder="Andrew Berger"
-                autofocus
-              />
-            </label>
-          
-            <label class="form-label">
-              Topic
-              <input
-                class="form-input"
-                type="text"
-                name="topic"
-                placeholder="Short issue summary"
-              />
-            </label>
-          
-            <label class="form-label">
-              Description
-              <textarea
-                class="form-input"
-                name="description"
-                placeholder="Please provide a detailed issue description"
-                rows="5"
-              ></textarea>
-            </label>
-            <button class="form-button" type="submit">Submit an issue</button>
 
-          </form>
+            <form class="form" name="issue_report_form" autocomplete="off">
+                <button type="button" data-modal-close class="modal_window_button">
+                    <svg class="icon " width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <label class="form-label">
+                    Your name
+                    <input class="form-input" type="text" name="username" placeholder="Andrew Berger" autofocus >
+                </label>
+
+                <label class="form-label">
+                    Topic
+                    <input class="form-input" type="text" name="topic" placeholder="Short issue summary" >
+                </label>
+
+                <label class="form-label">
+                    Description
+                    <textarea class="form-input" name="description"
+                        placeholder="Please provide a detailed issue description" rows="5"></textarea>
+                </label>
+                <button class="form-button" type="submit">Submit an issue</button>
+
+            </form>
         </div>
     </div>
     <script src="./js/modal.js">    </script>
