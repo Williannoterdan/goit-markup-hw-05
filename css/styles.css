@@ -665,6 +665,16 @@ fill: var(--color-of-background-two);
 .form_label .link{
   color: var(--color-of-background-thre);
 }
+.modal_window_button2{
+display: block; 
+min-width: 169px;
+height: 56px;
+letter-spacing: 0.04em;
+color: #ffffff ;
+border: none; 
+border-radius: 4px; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 /* Portfolio-main */
 .button_filter {
   padding: 96px 0 120px 0;
