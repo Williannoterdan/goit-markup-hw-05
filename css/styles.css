@@ -693,7 +693,7 @@ align-items: center;
 justify-content: center; 
 fill: transparent;
 }
-.checkbox_one_input:checked span{
+.checkbox_one_input:checked(.checkbox_one_span){
   background-color: var(--color-hover) ; 
 border: none;
 fill: var(--color-of-background-two); 
