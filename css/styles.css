@@ -693,10 +693,11 @@ align-items: center;
 justify-content: center; 
 fill: transparent;
 }
-.checkbox_one_input:checked(.checkbox_one_span){
+
+.checkbox_one_input:checked + .form_label{
   background-color: var(--color-hover) ; 
-border: none;
-fill: var(--color-of-background-two); 
+  border: none;
+  fill: var(--color-of-background-two); 
 }
 .form_label .link{
   color: var(--color-of-background-thre);
