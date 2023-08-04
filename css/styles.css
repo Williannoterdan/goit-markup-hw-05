@@ -694,7 +694,7 @@ justify-content: center;
 fill: transparent;
 }
 
-.checkbox_one_input:checked + .form_label{
+.checkbox_one_input:checked + .form_label .checkbox_one_span{
   background-color: var(--color-hover) ; 
   border: none;
   fill: var(--color-of-background-two); 
