@@ -506,6 +506,42 @@ button:focus {
   font-weight: 500;
   margin-bottom: 16px;
 }
+.form_footer{
+  display: flex; 
+  gap: 24px;
+}
+
+.input_in_form_in_footer_classs{
+  width: 264px; 
+ height: 40px;
+ border: 1px solid var(--color-of-background-one); 
+ background-color: transparent; 
+ font-size: 12px;
+ line-height: 1.5; 
+ letter-spacing: 0.04em;
+ padding-left: 16px; 
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+ border-radius: 4px; 
+ color: var(--color-of-background-one);
+
+}
+::placeholder{
+  color :var(--color-of-background-one); 
+}
+.boton_subsribe_footer{
+  min-width: 165px;
+  height: 40px; 
+   display: flex; 
+  justify-content: center; 
+   align-items: center; 
+   border: none;
+   border-radius: 4px;
+   color: var(--color-of-background-one);
+  }
+  .svg_subscribe_footer{
+    margin-left: 16px;
+    fill: var(--color-of-background-one);
+  }
 /* modal */
 .container_js {
   position: fixed;
