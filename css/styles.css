@@ -665,7 +665,7 @@ fill: var(--color-of-background-two);
 .form_label .link{
   color: var(--color-of-background-thre);
 }
-.modal_window_button2{
+.modal_window_button_two{
 display: block; 
 min-width: 169px;
 height: 56px;
