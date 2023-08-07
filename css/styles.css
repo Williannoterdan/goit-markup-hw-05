@@ -642,7 +642,7 @@ top: 50%;
 transform: translateY(-50%); 
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.div_label_in_modal:focus,
+.div_label_in_modal:focus-within,
 .div_label_in_modal:hover {
  fill: var(--color-of-background-thre); 
 }
